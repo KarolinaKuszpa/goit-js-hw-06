@@ -6,12 +6,11 @@ const totalValue = document.querySelector("#value");
 //dodaję zdarzenie:
 decrementCount.addEventListener("click", () => {
   // wartość decrement spada o 1 wraz z kliknięciem myszki.
-  counterValue--;
+
   totalValue.innerHTML = counterValue--;
 });
 
 incrementCount.addEventListener("click", () => {
-  counterValue++;
   totalValue.innerHTML = counterValue++;
 });
 
